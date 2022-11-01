@@ -1,0 +1,160 @@
+USE cArDorm
+GO
+
+INSERT INTO MsCustomer VALUES 
+('CU001', 'Wahyu Guntur', 'Male', 'wahyug@gmail.com','Jl. Moch. Yamin No. 250' ,'0834497824'),
+('CU002', 'Melati Ridwan', 'Female', 'melrid@yahoo.com', 'Jl. Elang No. 478', '088684363092'),
+('CU003', 'Zulfa Wijayanti', 'Female','zulfa@gmail.com', 'Jl. Kiaracondong No. 632', '08408306609'),
+('CU004', 'Victoria Yuli', 'Female', 'gsuwarno@gmail.com', 'Jl. Basoka Raya No. 12', '086919639671'),
+('CU005','Lintang Wastuti', 'Female', 'lintang@yahoo.com', 'Jl. Bakau No. 392', '0856325793'),
+('CU006','Surono Pertiwi', 'Male', 'ronosurono@yahoo.com', 'Jl. Kusmanto No. 108', '08740833046'),
+('CU007','Atmaja Tampubolon', 'Male', 'tampatma@yahoo.com', 'Jl. Sutan Syahrir No. 649', '08511356503'),
+('CU008','Yulio Yuniar', 'Male', 'yulioyu@yahoo.com', 'Jl. Ds. Jayawijaya No. 748', '082605476648'),
+('CU009','Yoga Ibrahim Irawan', 'Male', 'yukitayoga@yahoo.com', 'Jl. Babadan No. 701', '0839901975847'),
+('CU010','Siska Kuswandari', 'Female', 'siska@gmail.com', 'Jl. Cjokroaminoto No. 842', '085769084852'),
+('CU011','Indah Purwanti', 'Female', 'purwanti@gmail.com', 'Jl. Juanda No. 192', '084348728248'),
+('CU012','Mahfud Kusumo', 'Male', 'mkusumo@yahoo.com', 'Jl. Sutan Syahrir No. 657', '083341881547');
+
+INSERT INTO MsStaff VALUES
+('ST001', 'Aurora Melani', 'Female', 'Aurora1234@gmail.com', 'Jl. Bank Dagang No. 201', '0853147226469', 5500000),
+('ST002', 'Elma Padmasari', 'Female', 'epadmasari@yahoo.com', 'Jl. Bank Dagang No. 814', '087742217259',5150000),
+('ST003', 'Jaga Kusumo', 'Male', 'xmaheswara@yahoo.com', 'Jl. Abang No. 597', '085901945899', 5550000),
+('ST004', 'Elvina Sudiati', 'Female', 'elvina3355@gmail.com', 'Jl. Ikan No. 423', '086531272221', 5250000),
+('ST005', 'Caturangga Asirwanda', 'Male', 'caturanggaa@yahoo.com', 'Jl. Radio No. 502', '082143986566',6150000),
+('ST006', 'Kamal Hendra', 'Male', 'hendra@gmail.com', 'Jl. Lembong No. 78', '082217216900', 8150000),
+('ST007', 'Abdul Hamzah', 'Male', 'abduludul@gmail.com', 'Jl. Sudirman No. 649', '084041785901', 6150000),
+('ST008', 'Calista Prastuti', 'Female', 'calista@gmail.com', 'Jl. Sudirman No. 648', '084041785901', 6150000),
+('ST009', 'Yessi Susanti', 'Female', 'yessi998@yahoo.com', 'Jl. Haranggaol No. 648', '080333186972', 7150000),
+('ST010', 'Ghaliyati Puspita', 'Female', 'puspita1111@gmail.com', 'Jl. Bagis Utama No. 617', '085766543540', 5900000),
+('ST011', 'Daniel Jayadi Natsir', 'Male', 'danil@yahoo.com',  'Jl. Dewi Sartika No. 181', '08853468508', 6000000),
+('ST012', 'Hendri Situmorang', 'Male', 'situmorang01@gmail.com', 'Jl. Dipatiukur No. 323', '081509403957', 8900000);
+
+INSERT INTO MsVendor VALUES
+('VE001', 'Sarah Julia Lailasari', 'sarahjulia@gmail.com', 'Jl. Peta No. 325', '086508403957'),
+('VE002', 'CV Daihatsyi Armada', 'daihatsyihatsyi@gmail.com', 'Jl. Bazuka Raya No. 574', '086133373427'),
+('VE003', 'CV Tunas Mobil', 'tunasmobil@yahoo.com', 'Jl. Baranang No. 628', '085200057978'),
+('VE004', 'WAP Benua', 'wap.benua@yahoo.com', 'Jl. Yos Sudarso No. 4', '085256857978'),
+('VE005', 'PT Murni Berlian', 'berlian_m@gmail.com', 'Jl. Jaksa No. 948', '084020619957'),
+('VE006', 'PT Lintang Benua', 'lintangbenua@yahoo.com', 'Jl. Jaksa No. 948', '084021629357'),
+('VE007', 'PT Daya Guna Motor', 'gunanmo@gmail.com', 'Jl. Kusmanto No. 259', '085611373911'),
+('VE008', 'PT Cars', 'cars76@yahoo.com', 'Jl. Wahid No. 468', '080969062082'),
+('VE009', 'Ben Mobil', 'benbenm@yahoo.com', 'Jl. Sampangan No. 5', '085936242593'),
+('VE010', 'Buana Mobilindo', 'buanamobil@gmail.com', 'Jl. Qrisdoren No. 368', '089016343783'),
+('VE011', 'Rental Mobil Armada', 'rentalarm@gmail.com', 'Jl. Mustofa No. 165', '083255806240'),
+('VE012', 'PT Jati Makmur', 'jatimakmur@gmail.com', 'Jl. Juanda No. 230', '083404309816');
+
+INSERT INTO MsCarBrand VALUES
+('CB001', 'Tayato'),
+('CB002', 'Dihatsu'),
+('CB003', 'Nassin'),
+('CB004', 'Mutsibushu'),
+('CB005', 'Uadi'),
+('CB006', 'Chovrelot'),
+('CB007', 'Vilvi'),
+('CB008', 'Masdah'),
+('CB009', 'Kai'),
+('CB010', 'Luxes');
+
+INSERT INTO MsCar VALUES
+('CA001', 'CB001', 'INNAVO', 400000000, 14),
+('CA002', 'CB003', 'LAEF', 679000000, 9),
+('CA003', 'CB002', 'TORIOS', 205000000, 10),
+('CA004', 'CB004', 'POJERA', 517000000, 13),
+('CA005', 'CB008', 'MASDAH 3', 490000000, 6),
+('CA006', 'CB006', 'CAPTIVO', 600000000, 2),
+('CA007', 'CB005', 'UADI A4', 1278000000, 8),
+('CA008', 'CB010', 'LUXES XR', 1500000000, 6),
+('CA009', 'CB009', 'STENGIR', 533000000, 8),
+('CA010', 'CB008', 'MASDAH 6', 640000000, 8),
+('CA011', 'CB001', 'NYARIS', 248000000, 3),
+('CA012', 'CB002', 'ZELNIA', 185000000, 11);
+
+INSERT INTO PurchaseHeader 
+(PurchaseID, StaffID, VendorID, PurchaseDate) VALUES
+('PU001', 'ST004', 'VE010', '2020-01-01'),
+('PU002', 'ST002', 'VE001', '2020-05-06'),
+('PU003', 'ST007', 'VE011', '2020-05-07'),
+('PU004', 'ST005', 'VE012', '2020-07-11'),
+('PU005', 'ST008', 'VE011', '2020-10-01'),
+('PU006', 'ST009', 'VE002', '2020-11-11'),
+('PU007', 'ST001', 'VE005', '2020-12-25'),
+('PU008', 'ST008', 'VE004', '2021-01-06'),
+('PU009', 'ST010', 'VE003', '2021-03-13'),
+('PU010', 'ST011', 'VE006', '2021-06-21'),
+('PU011', 'ST012', 'VE007', '2021-07-07'),
+('PU012', 'ST004', 'VE009', '2021-10-10'),
+('PU013', 'ST003', 'VE008', '2021-10-22'),
+('PU014', 'ST006', 'VE001', '2021-11-30'),
+('PU015', 'ST011', 'VE005', '2021-12-12');
+
+INSERT INTO PurchaseDetail VALUES
+('PU001', 'CA012', 3),
+('PU001', 'CA002', 5),
+('PU002', 'CA012', 1),
+('PU002', 'CA011', 1),
+('PU002', 'CA005', 1),
+('PU003', 'CA007', 8),
+('PU004', 'CA008', 2),
+('PU004', 'CA001', 8),
+('PU005', 'CA003', 5),
+('PU006', 'CA006', 2),
+('PU007', 'CA004', 5),
+('PU007', 'CA009', 5),
+('PU007', 'CA010', 7),
+('PU008', 'CA005', 5),
+('PU009', 'CA001', 6),
+('PU010', 'CA003', 2),
+('PU011', 'CA008', 4),
+('PU011', 'CA010', 1),
+('PU012', 'CA011', 2),
+('PU013', 'CA012', 3),
+('PU013', 'CA003', 5),
+('PU014', 'CA004', 8),
+('PU014', 'CA002', 4),
+('PU015', 'CA009', 3),
+('PU015', 'CA012', 4);
+
+INSERT INTO TransactionHeader 
+(TransactionID, StaffID, CustomerID, TransactionDate) VALUES
+('TR001', 'ST002', 'CU011', '2020-02-03'),
+('TR002', 'ST004', 'CU001', '2020-04-05'),
+('TR003', 'ST005', 'CU002', '2020-06-07'),
+('TR004', 'ST006', 'CU010', '2020-07-11'),
+('TR005', 'ST009', 'CU012', '2020-11-02'),
+('TR006', 'ST008', 'CU002', '2020-11-15'),
+('TR007', 'ST010', 'CU011', '2020-12-30'),
+('TR008', 'ST003', 'CU007', '2021-01-10'),
+('TR009', 'ST001', 'CU006', '2021-04-16'),
+('TR010', 'ST001', 'CU003', '2021-04-22'),
+('TR011', 'ST011', 'CU004', '2021-07-08'),
+('TR012', 'ST012', 'CU001', '2021-10-12'),
+('TR013', 'ST011', 'CU008', '2021-10-25'),
+('TR014', 'ST006', 'CU009', '2021-11-29'),
+('TR015', 'ST005', 'CU007', '2021-12-21');
+
+INSERT INTO TransactionDetail VALUES
+('TR001', 'CA004', 1), 
+('TR001', 'CA007', 4), 
+('TR002', 'CA010', 3), 
+('TR003', 'CA009', 2), 
+('TR004', 'CA003', 4), 
+('TR004', 'CA001', 5), 
+('TR005', 'CA002', 1), 
+('TR005', 'CA010', 3), 
+('TR005', 'CA005', 1), 
+('TR006', 'CA002', 2), 
+('TR007', 'CA003', 2), 
+('TR008', 'CA006', 3), 
+('TR008', 'CA002', 4), 
+('TR009', 'CA011', 1), 
+('TR009', 'CA008', 2), 
+('TR010', 'CA001', 4), 
+('TR011', 'CA012', 3), 
+('TR011', 'CA011', 1), 
+('TR012', 'CA001', 2), 
+('TR012', 'CA008', 1), 
+('TR013', 'CA004', 8), 
+('TR014', 'CA006', 9), 
+('TR014', 'CA007', 1), 
+('TR015', 'CA003', 2), 
+('TR015', 'CA008', 2);
